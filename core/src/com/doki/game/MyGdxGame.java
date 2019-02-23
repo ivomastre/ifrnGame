@@ -16,7 +16,6 @@ public class MyGdxGame extends ApplicationAdapter {
 	int movPlY = 150;
 	float varAniPlayer = 0;
 	boolean ver;
-	KeyboardController controller = new KeyboardController();
 
 	@Override
 	public void create() {
@@ -25,7 +24,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		t[0] = new Texture("01.png");
 		t[1] = new Texture("02.png");
 		t[2] = new Texture("03.png");
-		Gdx.input.setInputProcessor(controller);
+
 
 	}
 
